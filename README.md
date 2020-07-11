@@ -2,7 +2,7 @@
 原生，无后台，数据本地化 
  
 ## Quick Start
-1.微信开发者工具打开 
+1.微信开发者工具打开  
 2.修改project.config.json->appid为你的小程序appid  
   
 ## License
