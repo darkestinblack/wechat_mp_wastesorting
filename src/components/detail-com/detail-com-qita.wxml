@@ -1,0 +1,14 @@
+<!--components/detail-com/detail-com-qita.wxml-->
+
+<view class="main">
+	<view class="cf-con qita-bg">
+		<image src="/static/img/qita-icon.png"></image>
+		<text class="font-size-24">其 他 垃 圾</text>
+		<text class="font-size-18">Other Waste</text>
+	</view>
+	<text class="cs-title">其 他 垃 圾</text>
+	<text class="para">是指除可回收物、有害垃圾、厨余垃圾（易腐垃圾）以外的其他生活废弃物。</text>
+	<image class="cs-image" src="/static/img/qita-icons.png"></image>
+	<view class="ex-title">其他垃圾投放指导</view>
+	<text class="para">用过的餐巾紙、尿片等由于沾有各类污迹，无法回收利用价值，宜作为其他垃圾进行处理。普通一次性电池（碱性电池）基本不含重金属，也作为其他垃圾投放。如日常生活中遇到成分复杂、不易分离归集的物品，建议作为其他垃圾处理。</text>
+</view>

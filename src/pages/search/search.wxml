@@ -1,0 +1,26 @@
+<!--pages/search/search.wxml-->
+<!--index.wxml-->
+<view class="container">
+	<view class="search">
+		<input model:value="{{searchText}}"></input>
+		<button bindtap="search" hover-class="btn-hover" size="mini">搜索</button>
+	</view>
+	<view class="hot">
+		<view class="hot-title">热搜</view>
+		<view class="hot-btn-con" bindtap="hotTap">
+			<button class="hot-btn" size="mini" data-text="口罩">口罩</button>
+			<button class="hot-btn" size="mini" data-text="笔">笔</button>
+			<button class="hot-btn" size="mini" data-text="水果">水果</button>
+			<button class="hot-btn" size="mini" data-text="衣物">衣物</button>
+			<button class="hot-btn" size="mini" data-text="电池">电池</button>
+			<button class="hot-btn" size="mini" data-text="电器">电器</button>
+			<button class="hot-btn" size="mini" data-text="塑料袋">塑料袋</button></view>
+	</view>
+	<view class="img-con">
+		<detail-com-qita wx:if='{{type=="qita"}}'> </detail-com-qita>
+		<detail-com-chuyu wx:elif='{{type=="chuyu"}}'> </detail-com-chuyu>
+		<detail-com-huishou wx:elif='{{type=="huishou"}}'> </detail-com-huishou>
+		<detail-com-youhai wx:else='{{type=="youhai"}}'> </detail-com-youhai>
+	</view>
+</view>
+<view class="from-org">powered by lazilla</view>

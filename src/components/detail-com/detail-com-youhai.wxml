@@ -1,0 +1,18 @@
+<!--components/detail-com/detail-com-youhai.wxml-->
+
+<view class="main">
+	<view class="cf-con youhai-bg">
+		<image src="/static/img/youhai-icon.png"></image>
+		<text class="font-size-24">有 害 垃 圾</text>
+		<text class="font-size-18">Hazardous Waste</text>
+	</view>
+	<text class="cs-title">有 害 垃 圾</text>
+	<text class="para">是指生活垃圾中对人体健康或者自然环境造成直接或者潜在伤害的物质，包括：废电池（镉镍电池、氧化汞电池、铅蓄电池等），废荧光灯管（日光灯、节能灯等），废温度计，废血压计，废药品及其包装物，废油漆、溶剂及其包装物，废杀虫剂、消毒剂及其包装物，废胶片机废相纸、废农药包装物等。</text>
+	<image class="cs-image" src="/static/img/youhai-icons.png"></image>
+	<text class="ex-title"> 有害垃圾投放指导</text>
+	<text class="para">废弃的荧光灯管灯泡投放时请打包固定，亦可使用新购荧光灯管灯泡包装物进行包装，以防止灯管灯泡破损以致有害的汞蒸气挥发到环境中。</text>
+	<text class="para">在日常生活中，使用的电池种类很多，目前生产的一次性电池已实现低汞或无汞化，易作为其他垃圾投放；除一次性电池外的二次电池（俗称充电电池，包括镉镍、氢镍、锂电池与铅蓄电池）、纽扣电池，这些电池中均含有重金属，属于有害垃圾，要投放到有害垃圾桶中，随意丢弃会严重污染环境。</text>
+	<text class="para">过期药品由于过了最佳使用期限，药品化学物质会失效或者变性，因此过期药品与包装物属于有害垃圾。</text>
+	<text class="para">为了我们生活的环境更美好，请将有害垃圾投放到有害垃圾桶中，由我们收集后统一进行无害化处理。</text>
+
+</view>

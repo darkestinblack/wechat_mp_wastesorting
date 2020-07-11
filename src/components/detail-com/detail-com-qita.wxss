@@ -1,0 +1,64 @@
+/* components/detail-com/detail-com-qita.wxss */
+
+.main{
+  width: 750rpx;
+  height: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column; 
+  box-sizing: border-box;
+  padding: 40rpx;
+}
+.cf-con {
+  width: 200rpx;
+  height: 240rpx;  
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+}
+.cf-con image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 14rpx;
+}
+.cf-con text {
+  text-overflow:ellipsis;
+  margin: 0 auto; 
+  color:#fcfdfd; 
+} 
+.font-size-24{
+  font-size: 24rpx;
+}
+.font-size-18{
+  font-size: 18rpx;
+}
+.cs-title{
+  font-size: 38rpx; 
+  font-weight: bolder;
+  margin: 10rpx 0 20rpx 0;
+}
+.cs-image{
+  margin-top: 40rpx;
+  width: 670rpx;
+  height: 500rpx;
+} 
+.ex-title{
+  display: block; 
+  width: 670rpx;
+  text-align:start;
+  font-weight: bold;
+  font-size: 32rpx;  
+  margin-top: 40rpx;
+  letter-spacing: 4rpx;
+}
+.para{   
+  margin-top: 20rpx;
+  letter-spacing: 4rpx;
+  font-size: 28rpx;
+}
+.qita-bg {
+  background-color: #4c5d64;
+}

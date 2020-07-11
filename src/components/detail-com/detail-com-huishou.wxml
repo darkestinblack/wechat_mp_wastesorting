@@ -1,0 +1,18 @@
+<!--components/detail-com/detail-com-huishou.wxml-->
+
+<view class="main">
+	<view class="cf-con huishou-bg">
+		<image src="/static/img/huishou-icon.png"></image>
+		<text class="font-size-24">可 回 收 物</text>
+		<text class="font-size-18">Recyclable</text>
+	</view>
+	<text class="cs-title">可 回 收 物</text>
+	<text class="para">是指生活垃圾中未经污染且适宜回收循环利用和资源利用的物质，包括：废纸、废塑料、废金属、废包装物、废旧纺织物、废弃电器电子产品、废玻璃、废纸塑复合包装等。</text>
+	<image class="cs-image" src="/static/img/huishou-icons.png"></image>
+	<text class="ex-title">可回收物投放指导</text>
+	<text class="para">纸类收集请注意不要混入被污染过的纸类产品，避免揉团，应展开压平叠放。</text>
+	<text class="para">	投放的牛奶盒、果汁盒、酸奶盒等饮品包装盒建议剪开后冲洗干净并压扁。</text>
+	<text class="para">投放瓶罐类物品应尽可能将容器内产品用尽或倒尽，并清理干净后投放。</text>
+	<text class="para">玻璃类物品应小心轻放，以免割伤破损，最好是袋装或者用容器装好后投放。</text>
+	<text class="para">织物类注意请勿混入脏污织物，建议叠放整齐并归类打包。</text>	 
+</view>

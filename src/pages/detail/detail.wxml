@@ -1,0 +1,11 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+<!-- <view class="logo-con">
+	<image class="logo" src="/static/img/logo.png"></image>
+</view> -->
+<detail-com-qita wx:if='{{type=="qita"}}'> </detail-com-qita> 
+<detail-com-chuyu wx:elif='{{type=="chuyu"}}'> </detail-com-chuyu> 
+<detail-com-huishou wx:elif='{{type=="huishou"}}'> </detail-com-huishou> 
+<detail-com-youhai wx:else='{{type=="youhai"}}'> </detail-com-youhai> 
+</view>
+<view class="from-org">powered by lazilla</view>

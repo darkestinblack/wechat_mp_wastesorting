@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="head-con">
+		<image class="head-img" src="/static/img/bg.jpg">
+		</image>
+	</view>
+	<view class="search">
+		<input hover-class="bd-hover-blue" placeholder=" 请输入关键文字" model:value="{{searchText}}"></input>
+		<button bindtap="search" hover-class="btn-hover" size="mini">搜索</button>
+	</view>
+	<view class="hot">
+		<view class="hot-title">热搜</view>
+		<view class="hot-btn-con">
+			<button class="hot-btn" bindtap="hotSearch" size="mini" data-text="口罩">口罩</button>
+			<button class="hot-btn" bindtap="hotSearch" size="mini" data-text="笔">笔</button>
+			<button class="hot-btn" bindtap="hotSearch" size="mini" data-text="水果">水果</button>
+			<button class="hot-btn" bindtap="hotSearch" size="mini" data-text="衣物">衣物</button>
+			<button class="hot-btn" bindtap="hotSearch" size="mini" data-text="电池">电池</button>
+			<button class="hot-btn" bindtap="hotSearch" size="mini" data-text="电器">电器</button>
+			<button class="hot-btn" bindtap="hotSearch" size="mini" data-text="塑料袋">塑料袋</button></view>
+	</view>
+	<view class="classification">
+		<view class="cf-title">生活垃圾基本分类
+		</view>
+		<view class="cf-navi-con">
+			<navigator class="navi navi-first navi-qita" url="/pages/detail/detail?type=qita">
+				<image src="/static/img/qita-icon.png"></image>
+				<text class="font-size-24">其 他 垃 圾</text>
+				<text class="font-size-16">Other Waste</text>
+			</navigator>
+			<navigator class="navi navi-chuyu" url="/pages/detail/detail?type=chuyu">
+				<image class="img-chuyu" src="/static/img/chuyu-icon.png"></image>
+				<text class="font-size-24">厨 余 垃 圾</text>
+				<text class="font-size-16">Food Waste</text>
+			</navigator>
+			<navigator class="navi navi-huishou" url="/pages/detail/detail?type=huishou">
+				<image class="img-huishou" src="/static/img/huishou-icon.png"></image>
+				<text class="font-size-24">可 回 收 物</text>
+				<text class="font-size-16">Recyclable</text>
+			</navigator>
+			<navigator class="navi navi-youhai" url="/pages/detail/detail?type=youhai">
+				<image class="img-youhai" src="/static/img/youhai-icon.png"></image>
+				<text class="font-size-24">有 害 垃 圾</text>
+				<text class="font-size-16">Hazardous Waste</text>
+			</navigator>
+		</view>
+	</view>
+</view>
+<view class="from-org">powered by lazilla</view>

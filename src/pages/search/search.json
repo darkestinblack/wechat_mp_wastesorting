@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "detail-com-qita":"/components/detail-com/detail-com-qita",
+    "detail-com-chuyu":"/components/detail-com/detail-com-chuyu",
+    "detail-com-huishou":"/components/detail-com/detail-com-huishou",
+    "detail-com-youhai":"/components/detail-com/detail-com-youhai"}
+}

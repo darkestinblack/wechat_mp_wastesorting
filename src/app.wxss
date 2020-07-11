@@ -1,0 +1,22 @@
+/**app.wxss**/
+.container {
+  width: 750rpx;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  box-sizing: border-box;
+  margin-bottom: 20rpx;
+} 
+
+.from-org{
+  letter-spacing: unset !important;
+  width: inherit;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #f7f5f5; 
+  text-align: center;   
+  font-size: 14px;
+  color: #a2a2a2;
+  letter-spacing: 4rpx;
+}

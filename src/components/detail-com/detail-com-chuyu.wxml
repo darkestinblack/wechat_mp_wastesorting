@@ -1,0 +1,14 @@
+<!--components/detail-com/detail-com-chuyu.wxml-->
+
+<view class="main">
+	<view class="cf-con chuyu-bg">
+		<image src="/static/img/chuyu-icon.png"></image>
+		<text class="font-size-24">厨 余 垃 圾</text>
+		<text class="font-size-18">Food Waste</text>
+	</view>
+	<text class="cs-title">厨 余 垃 圾</text>
+	<text class="para">是指生活垃圾中以有机质为主要成分，具有含水量高，易腐烂发酵发臭等特点的物质，主要包括：单位食堂、宾馆、饭店和酒楼等产生的餐厨垃圾；农贸市场、农产品批发市场和生鲜超市产生的蔬菜瓜果垃圾、腐肉、肉碎骨、蛋壳、畜禽产品内脏，过期食品等；以及居民家庭产生的厨余垃圾包括果蔬及食物下脚料、剩菜剩饭、瓜果皮、盆栽残枝落叶等。</text>
+	<image class="cs-image" src="/static/img/chuyu-icons.png"></image>
+	<text class="ex-title">厨余垃圾投放指导</text>
+	<text class="para">厨余垃圾应沥干水分后再投放。大块骨头和椰子壳、榴莲壳、等不易生化降解，不宜作为厨余垃圾，可作为其他垃圾投放。纯液体（如纯牛奶等），可直接倒入下水道。</text>
+</view>
