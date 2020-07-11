@@ -2,7 +2,7 @@
 <!--index.wxml-->
 <view class="container">
 	<view class="search">
-		<input model:value="{{searchText}}"></input>
+		<input model:placeholder="{{searchText}}"></input>
 		<button bindtap="search" hover-class="btn-hover" size="mini">搜索</button>
 	</view>
 	<view class="hot">
