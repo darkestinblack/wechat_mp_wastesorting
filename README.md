@@ -1,4 +1,4 @@
-# A wechat miniprogram of waste sorting（微信垃圾分类小程序）
+# 微信垃圾分类小程序- A wechat miniprogram of waste sorting
 原生，无后台，数据本地化 
  
 ## Quick Start
